@@ -310,3 +310,58 @@ color:#FFD700;
 .card p{
 margin-top:10px;
 }
+.membership{
+padding:80px 8%;
+background:#000;
+text-align:center;
+}
+
+.membership h2{
+font-size:40px;
+color:#FFD700;
+margin-bottom:50px;
+}
+
+.plans{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.plan{
+background:#181818;
+padding:35px;
+width:280px;
+border-radius:20px;
+border:2px solid #FFD700;
+transition:.3s;
+}
+
+.plan:hover{
+transform:translateY(-10px);
+}
+
+.popular{
+transform:scale(1.05);
+background:#222;
+}
+
+.plan h3{
+font-size:28px;
+color:#FFD700;
+}
+
+.plan h1{
+margin:20px 0;
+font-size:45px;
+}
+
+.plan p{
+margin:10px 0;
+}
+
+.plan button{
+margin-top:20px;
+width:100%;
+}
