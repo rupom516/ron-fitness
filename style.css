@@ -123,3 +123,8 @@ font-size:22px;
 }
 
 }
+.logo{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
