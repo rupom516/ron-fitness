@@ -673,3 +673,32 @@ color:#FFD700;
 color:white;
 margin-top:10px;
 }
+.menu-toggle{
+display:none;
+font-size:32px;
+color:#FFD700;
+cursor:pointer;
+}
+
+@media(max-width:768px){
+
+.menu-toggle{
+display:block;
+}
+
+nav ul{
+display:none;
+flex-direction:column;
+background:#111;
+position:absolute;
+top:70px;
+right:15px;
+padding:20px;
+border-radius:10px;
+}
+
+nav ul.show{
+display:flex;
+}
+
+}
