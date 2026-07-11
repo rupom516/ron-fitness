@@ -262,3 +262,51 @@ transform:scale(1.08);
 transition:.3s;
 
 }
+.about{
+padding:80px 8%;
+text-align:center;
+background:#111;
+}
+
+.about h2{
+font-size:40px;
+color:#FFD700;
+margin-bottom:20px;
+}
+
+.about p{
+max-width:800px;
+margin:auto;
+line-height:1.8;
+color:#ddd;
+}
+
+.about-box{
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:50px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#1b1b1b;
+padding:30px;
+width:250px;
+border-radius:15px;
+border:2px solid #FFD700;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+font-size:45px;
+color:#FFD700;
+}
+
+.card p{
+margin-top:10px;
+}
