@@ -49,3 +49,22 @@ document.getElementById("loader").style.display="none";
 },2000);
 
 }
+const counters = document.querySelectorAll(".count");
+
+counters.forEach(counter => {
+  const updateCounter = () => {
+    const target = +counter.getAttribute("data-target");
+    const count = +counter.innerText;
+
+    const increment = Math.ceil(target / 80);
+
+    if (count < target) {
+      counter.innerText = count + increment;
+      setTimeout(updateCounter, 25);
+    } else {
+      counter.innerText = target + "+";
+    }
+  };
+
+  updateCounter();
+});
