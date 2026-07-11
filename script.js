@@ -4,3 +4,19 @@ function toggleMenu(){
 document.getElementById("menu").classList.toggle("show");
 
 }
+document.querySelectorAll(".gallery img").forEach(img=>{
+
+img.onclick=function(){
+
+document.getElementById("lightbox").style.display="flex";
+document.getElementById("lightbox-img").src=this.src;
+
+}
+
+});
+
+function closeLightbox(){
+
+document.getElementById("lightbox").style.display="none";
+
+}
