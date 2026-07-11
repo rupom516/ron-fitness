@@ -426,3 +426,76 @@ cursor:pointer;
 transform:scale(1.05);
 
 }
+.trainer{
+
+padding:80px 8%;
+
+background:#0d0d0d;
+
+color:white;
+
+}
+
+.trainer h2{
+
+text-align:center;
+
+font-size:40px;
+
+color:#FFD700;
+
+margin-bottom:40px;
+
+}
+
+.trainer-box{
+
+display:flex;
+
+justify-content:center;
+
+gap:40px;
+
+flex-wrap:wrap;
+
+}
+
+.trainer-info,
+.why-us{
+
+background:#1b1b1b;
+
+padding:30px;
+
+border-radius:20px;
+
+width:350px;
+
+border:2px solid #FFD700;
+
+}
+
+.trainer h3{
+
+color:#FFD700;
+
+margin-bottom:20px;
+
+}
+
+.trainer p,
+.why-us li{
+
+margin:12px 0;
+
+font-size:17px;
+
+}
+
+.why-us ul{
+
+list-style:none;
+
+padding:0;
+
+}
