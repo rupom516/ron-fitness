@@ -569,3 +569,66 @@ text-decoration:none;
 padding-left:20px;
 
 }
+.reviews{
+padding:80px 8%;
+background:#000;
+text-align:center;
+}
+
+.reviews h2{
+color:#FFD700;
+font-size:40px;
+margin-bottom:40px;
+}
+
+.review-container{
+display:flex;
+gap:25px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.review-card{
+background:#1b1b1b;
+padding:25px;
+width:300px;
+border-radius:15px;
+border:2px solid #FFD700;
+transition:.3s;
+}
+
+.review-card:hover{
+transform:translateY(-8px);
+}
+
+.floating-whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+width:60px;
+height:60px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+text-decoration:none;
+z-index:999;
+}
+
+footer{
+padding:40px;
+background:#111;
+text-align:center;
+border-top:2px solid #FFD700;
+}
+
+footer h3{
+color:#FFD700;
+margin-bottom:15px;
+}
+
+footer p{
+margin:8px 0;
+}
