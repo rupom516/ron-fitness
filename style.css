@@ -102,18 +102,6 @@ button:hover{
 
 @media(max-width:768px){
 
-nav{
-flex-direction:column;
-padding:15px;
-}
-
-nav ul{
-margin-top:15px;
-gap:15px;
-flex-wrap:wrap;
-justify-content:center;
-}
-
 .hero h1{
 font-size:38px;
 }
