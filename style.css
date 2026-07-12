@@ -820,14 +820,3 @@ margin:auto;
 0%{transform:rotate(0deg);}
 100%{transform:rotate(360deg);}
 }
-.navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-}
-
-body{
-    padding-top: 80px;
-}
